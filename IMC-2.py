@@ -1,0 +1,6 @@
+print ("Olá")
+NOME = input("Antes de começar, diga-me seu nome: ")
+ALTURA = float(input("Diga-me sua altura: "))
+PESO = float(input("Diga-me seu peso: "))
+IMC = PESO / (ALTURA ** 2)
+print (NOME,"seu IMC é",IMC)
